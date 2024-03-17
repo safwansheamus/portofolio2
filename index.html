@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sfwn-Room</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/fotopenulis.jpeg"
+              alt="Muh Safwan"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Muh Safwan</h1>
+
+            <p class="title">Informatics Engineering</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:cruelpennywise@gmail.com" target="blank" class="contact-link"
+                  >cruelpennywise@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="https://wa.link/uxovor" target="blank" class="contact-link">+6289660533383</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Indonesia</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://github.com/safwansheamus" target="blank" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://wa.link/uxovor" target="blank" class="social-link">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.instagram.com/muh.safwannn/" target="blank" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/muhammad-sapwan-suhadi-3880b0280/" target="blank" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Hello! I'm Muh Safwan
+              Iam from Bone, South Sulawesi. Currently, I am pursuing a Diploma 4 (D4) 
+              in Computer Engineering at the University of Logistics and International Business in Bandung.
+              I am passionate about technology, specifically in the areas of cyber security, web development, and graphic design.
+            </p>
+          </section>
+
+          <!--
+          - Skills
+        -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Passions</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/web.png"
+                      alt="Web"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Web Development
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I am interested in developing a React project, and now I am starting to learn Next.js.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/gd.png"
+                      alt="GraphicDesign"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Graphic Design
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I am interested in graphic design, such as poster and logo design.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/cc.png"
+                      alt="Cybersecurity"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Cybersecurity Technician
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I have always wanted to become a hacker because the awareness of the 
+                      importance of cybersecurity in my country is still relatively low, 
+                      which drives me to become a cyber security professional.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/game.png"
+                      alt="Gaming"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Gaming
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I have a strong interest in the gaming world, especially PC games.
+                       I spend a lot of time playing PC games, and I also enjoy playing some mobile games.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt=""
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title></h4>
+
+                <time datetime="">My Passion</time>
+
+                <div data-modal-text>
+                  <p>
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - Skills
+        -->
+
+          <section class="clients">
+            <h3 class="h3 clients-title">Coding</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                  <img
+                    src="./assets/images/js.png"
+                    alt="client logo"
+                    style="width: 100px; height: auto;"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                  <img
+                    src="./assets/images/react.png"
+                    alt="client logo"
+                    style="width: 100px; height: auto;"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                  <img
+                    src="./assets/images/html.png"
+                    alt="client logo"
+                    style="width: 100px; height: auto;"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                  <img
+                    src="./assets/images/next.png"
+                    alt="client logo"
+                    style="width: 100px; height: auto;"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                  <img
+                    src="./assets/images/python.png"
+                    alt="client logo"
+                    style="width: 100px; height: auto;"
+                  />
+                </a>
+              </li>
+            </ul>
+          </section> 
+          <!-- Project      -->
+          <br>
+          <h3 class="h3 clients-title">Click To See My Project</h3>
+
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item">
+              <a href="https://github.com/safwansheamus/discord-pepperbot.git" target="blank">
+                <img
+                  src="./assets/images/pepper.png"
+                  alt="client logo"
+                  style="width: 100px; height: auto;"
+                />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://github.com/BiakTourismHub/pepperwave-frontend.git"  target="blank">
+                <img
+                  src="./assets/images/biak.png"
+                  alt="client logo"
+                  style="width: 120px; height: auto;"
+                />
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://github.com/safwansheamus/eduguard-lms.git" target="blank">
+                <img
+                  src="./assets/images/eduguard.png"
+                  alt="client logo"
+                  style="width: 100px; height: auto;"
+                />
+              </a>
+            </li>
+          </ul>
+        </section>      
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Universitas Logistik dan Bisnis Internasional
+                </h4>
+
+                <span>2020 - Present</span>
+
+                <p class="timeline-text">
+                  Informatics Engineering Diploma IV Program. and college is located
+                  in Bandung, Indonesia.
+                </p>
+              </li>
+
+              <!-- <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Institute of computer fundamentals
+                </h4>
+
+                <span>2018 - 2020</span>
+
+                <p class="timeline-text">
+                  Training on basic computer fundamentals and certified me by
+                  the instution for the completion of the course.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">High School khajipet</h4>
+
+                <span>2015 - 2020</span>
+
+                <p class="timeline-text">
+                  completed my secondary education of GPA (10) and recived so
+                  many medals in sports and games and completed my NCC training.
+                </p>
+              </li> -->
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Cybersecurity Technician</h4>
+
+                <span>2023</span>
+
+                <p class="timeline-text">
+                  Certified Independent Study Program Held by Kampus Merdeka at Metrodata Academy
+                </p>
+              </li>
+
+              <!-- <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">web -designer</h4>
+
+                <span>2019 — 2021</span>
+
+                <p class="timeline-text">
+                  I started my web development career with web design and
+                  created meny attractive and responsive websites.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">data entry operator</h4>
+
+                <span>2018 — 2019</span>
+
+                <p class="timeline-text">
+                  I started my jurney with data entry operator worked 1 year for
+                  a company and started learning web development
+                </p>
+              </li> -->
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web Developer</h5>
+                  <data value="80"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Graphic design</h5>
+                  <data value="85"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Cybersecurity Technician</h5>
+                  <data value="80"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+          <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>
+                Select category
+              </div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
